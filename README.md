@@ -1,3 +1,28 @@
+# MCP · Quarkus · NotebookLM — video explicativo
+
+Video animado (1920×1080, 30 fps, ~85 s) hecho con Remotion que explica:
+
+1. **MCP (Model Context Protocol)**: la analogía del “USB-C”, los tres actores
+   (Host, Client, Server), el flujo JSON-RPC paso a paso (A–F) y los tipos
+   de traspaso (Resources, Tools, Prompts).
+2. **Quarkus**: build-time vs runtime, compilación nativa con GraalVM, usos y
+   características principales.
+3. **NotebookLM**: grounding, fuentes multiformato, Audio Overviews, guías y
+   citación transparente.
+4. **Resumen**: cómo encajan las tres piezas.
+
+Las escenas están en `src/explainer/scenes/`. La composición se llama
+`McpQuarkusNotebookLM`:
+
+```console
+npx remotion render McpQuarkusNotebookLM out/mcp-quarkus-notebooklm.mp4
+```
+
+Las fuentes (Inter y JetBrains Mono, licencia OFL) están en `public/fonts/`,
+así que el render no necesita conexión a internet.
+
+---
+
 # Remotion video
 
 <p align="center">
